@@ -17,13 +17,13 @@ number of such pairs. Distinct pairs means
 
 class Solution:
     
-    def divisible_pair_sum(self, n, m):
+    def divisible_pair_sum(self, arr, m):
         
         result = []
         for i in range(len(n) - 1):
-            if n[i] not in result:
-                first = n[i]
-                list_for_second = n[i+1:]
+            if arr[i] not in result:
+                first = arr[i]
+                list_for_second = arr[i+1:]
                 for j in range(len(list_for_second)):
                     second = list_for_second[j]
                     if second not in result:
