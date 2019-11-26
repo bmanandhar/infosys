@@ -37,7 +37,7 @@ if __name__ == '__main__':
     n = [4, 0, 1, 5, 2, 6, 7, 9]
     m = 4
     S = Solution()
-    print(S.divisible_pair_sum(n, m))
+    print(S.divisible_pair_sum(n, m) == 3) # [[4, 0], [1, 7], [2, 6]] 
 
     
     
