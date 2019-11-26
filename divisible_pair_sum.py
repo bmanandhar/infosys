@@ -12,10 +12,7 @@ we need to find all distinct pairs existing
 in the array whose pair sum is divisible by 
 the given number m and then print the total 
 number of such pairs. Distinct pairs means 
-(1, 2) and (2, 1) are the same. Here I was 
-able to pass half of the total cases and the 
-rest cases did not pass due to exceeding the 
-given time complexity constraint."""
+(1, 2) and (2, 1) are the same."""
 
 
 class Solution:
